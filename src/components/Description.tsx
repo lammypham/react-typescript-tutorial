@@ -8,8 +8,8 @@ interface IState {
   count: number
 }
 
-class Description extends React.Component<IProps, IState>{
-  public static defaultProps: Partial<IProps>= {
+class Description extends React.Component<IProps, IState> {
+  public static defaultProps: Partial<IProps> = {
     countBy: 1,
   }
 
